@@ -35,6 +35,6 @@ steps:
 
 - task: PublishPipelineArtifact@1
   inputs:
-    targetPath: '$(Pipeline.Workspace)/release'
+    targetPath: '$(Pipeline.Workspace)'
     artifact: 'compiled_sharpview'
     publishLocation: 'pipeline'
